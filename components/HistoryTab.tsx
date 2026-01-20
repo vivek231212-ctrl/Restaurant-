@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { HistoryIcon, MessageIcon } from './icons';
+import { HistoryIcon, MessageIcon } from './icons.tsx';
 
 const HistoryTab: React.FC = () => {
   const sessions = [

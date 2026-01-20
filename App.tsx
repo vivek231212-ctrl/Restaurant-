@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
-import { TabType } from './types';
-import { HomeIcon, MessageIcon, HistoryIcon, UserIcon } from './components/icons';
-import HomeTab from './components/HomeTab';
-import ChatInterface from './components/ChatInterface';
-import HistoryTab from './components/HistoryTab';
+import { TabType } from './types.ts';
+import { HomeIcon, MessageIcon, HistoryIcon, UserIcon } from './components/icons.tsx';
+import HomeTab from './components/HomeTab.tsx';
+import ChatInterface from './components/ChatInterface.tsx';
+import HistoryTab from './components/HistoryTab.tsx';
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>('home');
@@ -86,7 +86,7 @@ interface NavButtonProps {
 const NavButton: React.FC<NavButtonProps> = ({ active, onClick, icon, label }) => (
   <button 
     onClick={onClick}
-    className={`flex flex-col items-center justify-center space-y-1 transition-all duration-300 w-16 ${
+    className={`flex flex-col items-center justify-center space-y-1 transition-all duration-300 w-16 relative ${
       active ? 'text-blue-500 scale-110' : 'text-slate-500 hover:text-slate-300'
     }`}
   >

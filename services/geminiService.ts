@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
-import { Message, Role } from "../types";
+import { Message, Role } from "../types.ts";
 
 const MODEL_NAME = 'gemini-3-flash-preview';
 

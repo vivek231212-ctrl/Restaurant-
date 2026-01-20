@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Message, Role } from '../types';
+import { Message, Role } from '../types.ts';
 
 interface ChatBubbleProps {
   message: Message;

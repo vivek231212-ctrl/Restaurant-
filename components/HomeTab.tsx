@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowRightIcon, MessageIcon } from './icons';
+import { ArrowRightIcon, MessageIcon } from './icons.tsx';
 
 interface HomeTabProps {
   onStartChat: () => void;

@@ -1,9 +1,9 @@
 
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { Message, Role } from '../types';
-import { streamGeminiResponse } from '../services/geminiService';
-import ChatBubble from './ChatBubble';
-import { SendIcon } from './icons';
+import { Message, Role } from '../types.ts';
+import { streamGeminiResponse } from '../services/geminiService.ts';
+import ChatBubble from './ChatBubble.tsx';
+import { SendIcon } from './icons.tsx';
 
 const ChatInterface: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([
