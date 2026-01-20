@@ -1,0 +1,8 @@
+{
+  "name": "Gemini Mobile Assistant",
+  "description": "A high-fidelity mobile-first AI assistant powered by Gemini 3 Flash, featuring a sleek modern design with streaming responses and session history.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
